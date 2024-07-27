@@ -19,3 +19,5 @@ jobs:
           ./generate_packages_unstable.sh
           cd ./dists/unstable
           ./generate-release.sh > main/binary-all/Release
+        env:
+          GH_TOKEN: ${{ github.token }}
