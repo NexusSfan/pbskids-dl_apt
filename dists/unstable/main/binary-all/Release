@@ -6,22 +6,22 @@ Version: 1.0
 Architectures: all
 Components: main
 Description: APT repo for pbskids-dl
-Date: Sat, 27 Jul 2024 21:52:33 +0000
+Date: Sat, 27 Jul 2024 21:58:08 +0000
 MD5Sum:
- 23d695355e9fbf4e5292fe8b1ca117c6 205 main/binary-all/Release
- 534edb318770bdb924a21cb52ed94be8 684 main/binary-all/Packages
+ cfa98053a8104c21dc5e0cd045bea2de 205 main/binary-all/Release
+ 86f7f4ebcedb3d3dc69aeac70c21d39a 684 main/binary-all/Packages
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-all/.gitkeep
- d1098fcc03e05dabb393ed558e6902fb 428 main/binary-all/Packages.gz
+ 3f5aa040136c1ffa66a8ff6349e099a7 428 main/binary-all/Packages.gz
  a6172f0592a5ac99ec6acaac2e91f236 592 generate-release.sh
 SHA1:
- 1846baf13359433b8347cd0e9beef08054c388fd 521 main/binary-all/Release
- 8739ec48c69f50e014b5f98d2662b2d585adbda8 684 main/binary-all/Packages
+ 305834e1e0763f7f8bd496c300a54ecf02bd722b 521 main/binary-all/Release
+ 24958ecc1be00538507f18f06b9dde6729cc4ecc 684 main/binary-all/Packages
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-all/.gitkeep
- b545e3a8e24c74cf5e47b5ec0f186c7244cf4eed 428 main/binary-all/Packages.gz
+ 6a0946dd8fbf1680cc6941262b1df54dfc94bb9a 428 main/binary-all/Packages.gz
  b659e3399d5098a2bdc9d9af09059067c98ed12d 592 generate-release.sh
 SHA256:
- 91d1f2f1bfca7cf84690ffaa339080177bfb81bc477e0159c3f561782866b848 879 main/binary-all/Release
- 3302ff5356ed4ef0412ab83f864ba3d61f058306b3d0167635b92e53bc5449f9 684 main/binary-all/Packages
+ a486fde56e4b7c32f7b52dcde8108731aab19e1b6dbfc66d7e5ab0505b602fb0 879 main/binary-all/Release
+ e2cfdab3264855575855f539e30e1579d491e3191e2e451009ffdc82ad85398b 684 main/binary-all/Packages
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-all/.gitkeep
- 907a29b173bdd0c41c8d9807882c142f3fadc37bc52a3cae63b7506d72eae3eb 428 main/binary-all/Packages.gz
+ 0e06a8ca735373fd44fa491eb882a9a63051949643d67619fe56ea6ced3b59ed 428 main/binary-all/Packages.gz
  df2f2cc798448ba31ba9af93f367b9173938646c1ce90aad5818144d49f61df3 592 generate-release.sh
