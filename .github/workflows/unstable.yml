@@ -22,9 +22,10 @@ jobs:
           ./generate_packages_unstable.sh
           cd ./dists/unstable
           ./generate-release.sh > main/binary-all/Release
+          cd ../..
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add . -f
+          git add .
           git commit -m "Update unstable"
           git push
         env:
