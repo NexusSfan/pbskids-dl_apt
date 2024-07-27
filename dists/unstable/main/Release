@@ -1,0 +1,24 @@
+Origin: Example Repository
+Label: Example
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: all
+Components: main
+Description: APT repo for pbskids-dl
+Date: Sat, 27 Jul 2024 22:04:32 +0000
+MD5Sum:
+ 20e3188be8d859833c87ddc5236dda08 205 main/Release
+ 8805218f1504b63df0362742cff6091d 684 main/binary-all/Packages
+ 4f057573e2bafbdabc9db5d757b5073e 428 main/binary-all/Packages.gz
+ a6172f0592a5ac99ec6acaac2e91f236 592 generate-release.sh
+SHA1:
+ 78fcae4a7c65a07523256a5f3e7064bd892023db 449 main/Release
+ 144b1950365521aeb7ffc1cc919042a938b44d39 684 main/binary-all/Packages
+ 23c24fafdac3f78f3533d8e432d134f3932e3c2d 428 main/binary-all/Packages.gz
+ b659e3399d5098a2bdc9d9af09059067c98ed12d 592 generate-release.sh
+SHA256:
+ 9e1c6b7ccd7416f29c6d1ceba9ca74d98959c04c0f8201669138a137ef1df784 727 main/Release
+ 0454e7c5cba1f66ba90b1fa2c3c64f1cd59d691dccb49e86ae77bb75428af70a 684 main/binary-all/Packages
+ c5afef7bb5f29f6cfbf01335733ed4d3f70a1ea7ee58e0503d2372219e2e83f6 428 main/binary-all/Packages.gz
+ df2f2cc798448ba31ba9af93f367b9173938646c1ce90aad5818144d49f61df3 592 generate-release.sh
