@@ -43,7 +43,7 @@ jobs:
           gh release -R pbskids-dl/pbskids-dl download --pattern '*.deb'
           rm ./pool/main/stable/pbskids-dl_?.?.?-1_all.deb
           DEB_VERSION=`curl -s https://raw.githubusercontent.com/pbskids-dl/pbskids-dl_debian/build/version`
-          mv pbskids-dl_debian.deb ./pool/main/stable/pbskids-dl_$(($DEB_VERSION))-1_all.deb
+          mv pbskids-dl_debian.deb ./pool/main/stable/pbskids-dl_$DEB_VERSION-1_all.deb
           ./generate-packages.sh
           cd ./dists/stable
           ./generate-release.sh > main/Release
