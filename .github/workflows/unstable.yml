@@ -5,6 +5,9 @@ on:
     branches: ["repo"]
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,5 +22,9 @@ jobs:
           ./generate_packages_unstable.sh
           cd ./dists/unstable
           ./generate-release.sh > main/binary-all/Release
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add .
+          git commit -m "Update unstable"
         env:
           GH_TOKEN: ${{ github.token }}
