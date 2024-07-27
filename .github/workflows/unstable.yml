@@ -24,7 +24,7 @@ jobs:
           ./generate-release.sh > main/binary-all/Release
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add .
+          git add . -f
           git commit -m "Update unstable"
           git push
         env:
