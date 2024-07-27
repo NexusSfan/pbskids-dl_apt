@@ -16,6 +16,7 @@ jobs:
       - name: Update Unstable on Repo
         shell: bash
         run: |
+          git pull
           gh release -R pbskids-dl/pbskids-dl download unstable --pattern '*.deb'
           rm ./pool/main/unstable/pbskids-dl_unstable-*_all.deb
           mv pbskids-dl_debian.deb ./pool/main/unstable/pbskids-dl_unstable-$(($RANDOM))_all.deb
@@ -38,6 +39,7 @@ jobs:
       - name: Update Stable on Repo
         shell: bash
         run: |
+          git pull
           gh release -R pbskids-dl/pbskids-dl download --pattern '*.deb'
           rm ./pool/main/stable/pbskids-dl_?.?.?-1_all.deb
           DEB_VERSION=`curl -s https://raw.githubusercontent.com/pbskids-dl/pbskids-dl_debian/build/version`
