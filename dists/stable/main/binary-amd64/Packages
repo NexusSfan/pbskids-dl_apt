@@ -3,7 +3,7 @@ Version: 3.2
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Depends: python3, curl, aria2, bash, awk, sed, python3-tk, python3-urllib3, python3-bs4, python3-lxml, python3-pip
-Filename: pool/main/stable/pbskids-dl_-1_all.deb
+Filename: pool/main/stable/pbskids-dl_3.2.0-1_all.deb
 Size: 4946
 MD5sum: 5f146a9ca763ec8a433fd3905950533b
 SHA1: 62bec283e045dd2b0ae7f3551b1a04907f6dc3c1
