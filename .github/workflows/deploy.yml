@@ -1,9 +1,11 @@
-name: Deploy Repo
+name: Deploy to Github Pages
 
 on:
   push:
     branches: ["repo"]
   workflow_dispatch:
+  workflow_call:
+
 
 permissions:
   contents: read
