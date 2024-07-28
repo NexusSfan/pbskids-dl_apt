@@ -6,22 +6,19 @@ Version: 1.0
 Architectures: all
 Components: main
 Description: APT repo for pbskids-dl
-Date: Sun, 28 Jul 2024 00:36:48 +0000
+Date: Sun, 28 Jul 2024 00:40:09 +0000
 MD5Sum:
- 62392fa4aa9da31aac83f707db3346f9 833 Release.gpg
- 6d52b668f07a0e1a054591a6b5602b5f 1093 main/Release
+ 1dfa8f490f63ee1fa46ba8b663f51439 833 Release.gpg
  a77b1ebf78055babdbbd8a07bb3e56c8 675 main/binary-all/Packages
  d33742685716e4efaebec0a709b309a1 425 main/binary-all/Packages.gz
  407a11db38007ab7770f7e8b63e128a4 605 generate-release.sh
 SHA1:
- de51aa04ab1fbe66200779ca509b0f050c496840 833 Release.gpg
- 091d0f4b8fa53ca8bd01d141efe7822bcdf3c461 1093 main/Release
+ 7de7f80c2e2824357352550dee63b9e0ec24c858 833 Release.gpg
  681e1b958dfb55241030041883c4b5f7c783849c 675 main/binary-all/Packages
  6342079570bbbccffe968b2168a21f4718c1fe08 425 main/binary-all/Packages.gz
  7bfdb3cfa122d8d5f9297928466015da40caeb14 605 generate-release.sh
 SHA256:
- 172e105e10cc0e016c48e24af828ae67769dbabd6b458d6559cf89dcd82295fc 833 Release.gpg
- 36d22ed85bdb51148dc58f365804babcb0bf4ba04e87f6507eca4dbcd37869be 1093 main/Release
+ f267063122ec0237feb615b95ec6b63636287bfa2a50e5111fb846e38f3b53b6 833 Release.gpg
  e730b17b43dc8594cf65a4f51fa3b2c8b7cabc28efb4c6e33d24dfd57cb73ca3 675 main/binary-all/Packages
  7fe2fdc14dbfe8e059c8cd4ec084b66ba3b5ab3214944b57a4bb1a842e1ad633 425 main/binary-all/Packages.gz
  fa83ca1db914a85d5fd9ba4fc6d40621dc14bcd31f5562c7b408f7c3f58ec906 605 generate-release.sh
