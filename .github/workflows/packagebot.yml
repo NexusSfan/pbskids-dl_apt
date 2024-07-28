@@ -22,11 +22,29 @@ jobs:
           gh release -R pbskids-dl/pbskids-dl download unstable --pattern '*.deb'
           gh release -R pbskids-dl/pbskids-dl.rs download unstable --pattern '*.deb'
           rm ./pool/main/unstable/pbskids-dl_unstable-1_all.deb
-          rm ./pool/main/unstable/pbskids-dl.rs_unstable-1_*.deb
+          rm ./pool/main/unstable/pbskids-dl.rs*.deb
           mv pbskids-dl_debian.deb ./pool/main/unstable/pbskids-dl_unstable-1_all.deb
-          mv pbskids-dl.rs*amd64.deb ./pool/main/unstable/pbskids-dl.rs_unstable-1_amd64.deb
+          mv pbskids-dl.rs*.deb ./pool/main/unstable/
           ./generate-packages-unstable.sh
           cd ./dists/unstable
+          rm Release.gpg
+          ./generate-release.sh > Release
+          cd ../..
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Update Stable on Repo
+        shell: bash
+        run: |
+          git pull
+          gh release -R pbskids-dl/pbskids-dl download --pattern '*.deb'
+          gh release -R pbskids-dl/pbskids-dl.rs download --pattern '*.deb'
+          rm ./pool/main/stable/pbskids-dl_?.?.?-1_all.deb
+          rm ./pool/main/stable/pbskids-dl.rs*.deb
+          DEB_VERSION=`curl -s https://github.com/pbskids-dl/pbskids-dl_debian/raw/build/version`
+          mv pbskids-dl_debian.deb ./pool/main/stable/pbskids-dl_$DEB_VERSION-1_all.deb
+          mv pbskids-dl.rs*.deb ./pool/main/stable/
+          ./generate-packages.sh
+          cd ./dists/stable
           rm Release.gpg
           ./generate-release.sh > Release
           cd ../..
@@ -40,43 +58,21 @@ jobs:
           echo "${{ secrets.GPG_PRIVATE_KEY }}" > gpg-priv.asc
           gpg --import gpg-pub.asc
           gpg --batch --yes --pinentry-mode=loopback --import gpg-priv.asc
+          rm -rf ./tmp
       - name: Sign Release
         run:
           |
-          cd ./dists/unstable
+          cd ./dists/stable
           gpg --batch --yes --pinentry-mode=loopback -abs -u 5C5D62C723FB06AE54235F095226D68386FBF13E -o Release.gpg Release
           cd ../..
-          rm -rf ./tmp
-      - name: Add Files
-        run:
-          |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .
-      - name: Update Stable on Repo
-        shell: bash
-        run: |
-          git pull
-          gh release -R pbskids-dl/pbskids-dl download --pattern '*.deb'
-          rm ./pool/main/stable/pbskids-dl_?.?.?-1_all.deb
-          DEB_VERSION=`curl -s https://raw.githubusercontent.com/pbskids-dl/pbskids-dl_debian/build/version`
-          mv pbskids-dl_debian.deb ./pool/main/stable/pbskids-dl_$DEB_VERSION-1_all.deb
-          ./generate-packages.sh
-          cd ./dists/stable
-          rm Release.gpg
-          ./generate-release.sh > Release
-          cd ../..
-        env:
-          GH_TOKEN: ${{ github.token }}
-      - name: Sign Release
-        run:
-          |
-          cd ./dists/stable
+          cd ./dists/unstable
           gpg --batch --yes --pinentry-mode=loopback -abs -u 5C5D62C723FB06AE54235F095226D68386FBF13E -o Release.gpg Release
           cd ../..
       - name: Commit
         run:
           |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add .
           git commit -m "[PackageBot] Update Packages" || true
           git push
