@@ -1,27 +1,27 @@
-Origin: Example Repository
-Label: Example
-Suite: stable
-Codename: stable
+Origin: pbskids-dl Apt Repo
+Label: pbskids-dl Apt Repo
+Suite: unstable
+Codename: unstable
 Version: 1.0
 Architectures: all
 Components: main
 Description: APT repo for pbskids-dl
-Date: Sun, 28 Jul 2024 00:34:47 +0000
+Date: Sun, 28 Jul 2024 00:36:47 +0000
 MD5Sum:
- a49bbbd9d314b94ad240d7155ab0df3a 833 Release.gpg
+ 4e6714e17da15ec2f855285be1013df2 833 Release.gpg
  34139bf281b138abe61b89866bda5c9f 1093 main/Release
- 4f5ba73d1df1b653f964e44e2bbf5b80 684 main/binary-all/Packages
- 53f69588088f68dff8c24913a782c712 428 main/binary-all/Packages.gz
- a6172f0592a5ac99ec6acaac2e91f236 592 generate-release.sh
+ a81e0d8d520f441211fc755478fe7ce6 684 main/binary-all/Packages
+ a10aeeaafce0f3d393ed219d33f653a9 429 main/binary-all/Packages.gz
+ 75db7ef632a3ad5d06caef6a21aff6ac 609 generate-release.sh
 SHA1:
- 3850032e3ed2fde55e0159b7f1c425666817d3dc 833 Release.gpg
+ e51e3ed6952f5ac50bb1883a47dbd886780b3544 833 Release.gpg
  c411bcfb87ea6ceff3b1f0ff583b9e0c0f771787 1093 main/Release
- c8c9708b802ddd9ae02ceef882d73041d47b5b40 684 main/binary-all/Packages
- 32685e1bdf5994be23d9a674fc20c8c92251748a 428 main/binary-all/Packages.gz
- b659e3399d5098a2bdc9d9af09059067c98ed12d 592 generate-release.sh
+ 78cbff2f18893d902b72b3392c7743cb62f5588c 684 main/binary-all/Packages
+ fb3a46c3a2fd9e097629155bcc0e489599ce99a4 429 main/binary-all/Packages.gz
+ a440b756ad9c78182e5ee9ce88200ef7eb000faf 609 generate-release.sh
 SHA256:
- 3112b874c5acea11ca75bd228591f2948e8cf08e615c954221b06674c889baed 833 Release.gpg
+ b80aa347ceb0a81d60f50aea270cdfd5e7242821af6e8c2967bba28cabc39087 833 Release.gpg
  57d8e698f03090e7c8bfe36f30b47e468bc8520e1e600f557f81c523be79ad5b 1093 main/Release
- 1abf7e72e2edb322b73ef307c638814fe803f0170e34c6ffd4da4d7e33f731fe 684 main/binary-all/Packages
- ad9b8d2c19cd6c56c87cdec339ee28dc90bdaa582af14880fb02c262e638c59e 428 main/binary-all/Packages.gz
- df2f2cc798448ba31ba9af93f367b9173938646c1ce90aad5818144d49f61df3 592 generate-release.sh
+ 7445a149c221e206153f4a148cfee90e601de25862fd9683542a27bba896b5ae 684 main/binary-all/Packages
+ fafc99e87e0bc6c0fddeddd1a70256573d1c43fc7d8753d8ce58412fb2766b23 429 main/binary-all/Packages.gz
+ c07f4ce5b0631549cc310f7fee58d9c2c4fa370bc334670fc7613869e3ed5e62 609 generate-release.sh
