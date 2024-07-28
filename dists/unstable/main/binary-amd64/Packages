@@ -31,13 +31,13 @@ Version: 3.2.0-1
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 2039
-Depends: libc6 (>= 2.34), libssl3 (>= 3.0.0~~alpha1), zlib1g (>= 1:1.1.4)
+Depends: libssl3 (>= 3.0.0~~alpha1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
 Conflicts: pbskids-dl
-Filename: pool/main/unstable/pbskids-dl.rs_unstable-1_amd64.deb
-Size: 844844
-MD5sum: 43d68a8b79d2f25c934d522262e09f49
-SHA1: 9753461fcba864769bcf5ed3b7065c2c765a58be
-SHA256: 99bc8132bda77a6a59b79954a62a6a1b664f05622733e5df2b2f2a4d52665610
+Filename: pool/main/unstable/pbskids-dl.rs_3.2.0-1_amd64.deb
+Size: 845088
+MD5sum: 5a1d16116b8c9577842e514f19815d77
+SHA1: 1ce3b7fa833d09dd425b4ae144dee92f24ac7271
+SHA256: 2edfed98f6ed3e62cd5e996371b2b0312812c5703e8ccae471fe89ae82c67e5e
 Section: tools
 Priority: optional
 Homepage: https://github.com/pbskids-dl/pbskids-dl/wiki
