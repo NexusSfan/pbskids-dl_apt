@@ -3,7 +3,7 @@ Version: 3.2.0
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Depends: python3, curl, aria2, bash, awk, sed, python3-tk, python3-urllib3, python3-bs4, python3-lxml, python3-pip
-Filename: pool/main/unstable/pbskids-dl_unstable-25756_all.deb
+Filename: pool/main/unstable/pbskids-dl_unstable-1_all.deb
 Size: 5086
 MD5sum: 039a802fcb29a2a53c14062f8b61df6e
 SHA1: 8367555dbf33068fc60e8999d2417b174bd77457
