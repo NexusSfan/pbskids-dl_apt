@@ -1,24 +1,24 @@
 Origin: pbskids-dl Apt Repo
-Label: pbskids-dl Apt Repo
+Label: pbskids-dl
 Suite: unstable
 Codename: unstable
 Version: 1.0
 Architectures: all
 Components: main
 Description: APT repo for pbskids-dl
-Date: Sun, 28 Jul 2024 00:40:08 +0000
+Date: Sun, 28 Jul 2024 00:42:10 +0000
 MD5Sum:
- 8b3be1af292ccbdcdac4a565a1ab6f2b 833 Release.gpg
- 28215ed9aab3b78e91e2eccdd5a495c1 684 main/binary-all/Packages
- 91de7df5743b1bbaf58d9c36b7a34696 428 main/binary-all/Packages.gz
- 75db7ef632a3ad5d06caef6a21aff6ac 609 generate-release.sh
+ 61af6522032d8fa378b3d592fc9aa7bb 833 Release.gpg
+ 6e5de8020fab513b8a9cb1d22d87c0ba 684 main/binary-all/Packages
+ 191c598fe6474f149343734f79485294 428 main/binary-all/Packages.gz
+ 8901c0b5bd007410b062544b626ab90f 600 generate-release.sh
 SHA1:
- e9ae7248323bc14d5cf516b5598931da0fdd9b09 833 Release.gpg
- 2a60631b13a02ae506753a15b90685323a348755 684 main/binary-all/Packages
- 2df867f2c97e1345193833a5414eb7a29e4f1c65 428 main/binary-all/Packages.gz
- a440b756ad9c78182e5ee9ce88200ef7eb000faf 609 generate-release.sh
+ 119b96ad48f0343fc46e4b7e6c3c1e0c06a21790 833 Release.gpg
+ 2d09f769bcc57f26f9061952f49838f41e9ce6fa 684 main/binary-all/Packages
+ 2cf85248797b79f1e0906a54c882fe80f5a44caf 428 main/binary-all/Packages.gz
+ 79cadd7cb2e29eb2b87181fd8ec05cf957a373b9 600 generate-release.sh
 SHA256:
- ea068c71576a27a4a697c50af4740a27d837cc1288933ab4d5536095493b4bde 833 Release.gpg
- bfa6c65255f6c306c4c12a70402ef53bb252ebefd002d3ba6802c2d70e5a107d 684 main/binary-all/Packages
- 1ea6f91568cae0290f68a9a6fc41cb92bcf62cd6cd9c704020ed52f2368d6585 428 main/binary-all/Packages.gz
- c07f4ce5b0631549cc310f7fee58d9c2c4fa370bc334670fc7613869e3ed5e62 609 generate-release.sh
+ d5ac894e5d35a324ebc2b7a12b8b84adbf07d43b980948b4fb2653ce4d99c189 833 Release.gpg
+ 4bb99b0f0d6ede8e33f6ff5367c39f09d40fa26168b8c1995a49f4bdd7efd9f9 684 main/binary-all/Packages
+ 4dc94cec696676e71106caffe8fd41de355e7d20f309da7b03a126cafd367e80 428 main/binary-all/Packages.gz
+ 48e7864f62605bf747ec6566314eb9647d4fa8c75810ad1767e2967bce961820 600 generate-release.sh
