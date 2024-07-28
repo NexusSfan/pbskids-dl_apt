@@ -27,16 +27,16 @@ SHA256: ca5025f0893266c324c92e1bd5795c3c21cb7ba27b292bb1f07f058fb5b349e9
 Description: Public keys by pbskids-dl
 
 Package: pbskids-dl.rs
-Version: 3.2.0-1
+Version: 3.2.1-1
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 2039
-Depends: libssl3 (>= 3.0.0~~alpha1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
-Filename: pool/main/unstable/pbskids-dl.rs_3.2.0-1_amd64.deb
-Size: 844868
-MD5sum: ad57a7bf37fe9f716c0de05536b577e3
-SHA1: 7d14b4e450c0815d857303ea4551c36b94c155b3
-SHA256: 646e1cb6f71d06dcbaed1932ded44d269cbd470aa8e76b1441653b777c29c312
+Depends: zlib1g (>= 1:1.1.4), libssl3 (>= 3.0.0~~alpha1), libc6 (>= 2.34)
+Filename: pool/main/unstable/pbskids-dl.rs_3.2.1-1_amd64.deb
+Size: 844632
+MD5sum: 4b4ae0d5bf017b91ba3e52bb9bcd494b
+SHA1: 8bb1e8c91b2a64284dba7b0a51d62bc7f7c7297d
+SHA256: 2caa9498f00d308d7ddc24cad6675ae2319c279e61ab387bca57dd987be7cb41
 Section: tools
 Priority: optional
 Homepage: https://github.com/pbskids-dl/pbskids-dl/wiki
