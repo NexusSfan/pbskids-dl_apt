@@ -34,15 +34,16 @@ Installed-Size: 2039
 Depends: libc6 (>= 2.34), libssl3 (>= 3.0.0~~alpha1), zlib1g (>= 1:1.1.4)
 Conflicts: pbskids-dl
 Filename: pool/main/unstable/pbskids-dl.rs_unstable-1_amd64.deb
-Size: 844696
-MD5sum: 493f80bf58fd00ac50caf8233b0dcf86
-SHA1: a6e5e022427e52a99dec3299219327e99fd540af
-SHA256: b5ddb23339e859e761393ad374b60e14ebdec8459681bd7dcc6383e058b4f0ae
+Size: 844844
+MD5sum: 43d68a8b79d2f25c934d522262e09f49
+SHA1: 9753461fcba864769bcf5ed3b7065c2c765a58be
+SHA256: 99bc8132bda77a6a59b79954a62a6a1b664f05622733e5df2b2f2a4d52665610
 Section: tools
 Priority: optional
 Homepage: https://github.com/pbskids-dl/pbskids-dl/wiki
 Description: A downloader for PBS KIDS videos.
- A downloader for PBS KIDS videos.
+ # pbskids-dl rust
+ Documentation coming soon
 Vcs-Browser: https://github.com/pbskids-dl/pbskids-dl
 Vcs-Git: https://github.com/pbskids-dl/pbskids-dl
 
