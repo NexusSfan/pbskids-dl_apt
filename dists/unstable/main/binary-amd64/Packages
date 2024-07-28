@@ -31,19 +31,17 @@ Version: 3.2.0-1
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 2039
-Depends: libssl3 (>= 3.0.0~~alpha1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
-Conflicts: pbskids-dl
+Depends: libssl3 (>= 3.0.0~~alpha1), zlib1g (>= 1:1.1.4), libc6 (>= 2.34)
 Filename: pool/main/unstable/pbskids-dl.rs_3.2.0-1_amd64.deb
-Size: 845088
-MD5sum: 5a1d16116b8c9577842e514f19815d77
-SHA1: 1ce3b7fa833d09dd425b4ae144dee92f24ac7271
-SHA256: 2edfed98f6ed3e62cd5e996371b2b0312812c5703e8ccae471fe89ae82c67e5e
+Size: 844256
+MD5sum: 44da21b8bf52faa4cb2248598579c71c
+SHA1: 7afd25bbb649454851d22e7f3ee0dfe5504b0543
+SHA256: 6f0144e14125f0535e8ef7835eb1592814bae8123d572c115d102a604a567442
 Section: tools
 Priority: optional
 Homepage: https://github.com/pbskids-dl/pbskids-dl/wiki
 Description: A downloader for PBS KIDS videos.
- # pbskids-dl rust
- Documentation coming soon
+ Rust version of pbskids-dl
 Vcs-Browser: https://github.com/pbskids-dl/pbskids-dl
 Vcs-Git: https://github.com/pbskids-dl/pbskids-dl
 
