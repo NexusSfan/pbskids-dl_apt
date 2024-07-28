@@ -1,0 +1,11 @@
+name: update and deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  packagebot:
+    uses: pbskids-dl/apt/.github/workflows/packagebot.yml@repo
+  deploy:
+    needs: packagebot
+    uses: pbskids-dl/apt/.github/workflows/deploy.yml@repo
