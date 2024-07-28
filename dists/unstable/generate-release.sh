@@ -16,7 +16,7 @@ do_hash() {
 
 cat << EOF
 Origin: pbskids-dl Apt Repo
-Label: pbskids-dl Apt Repo
+Label: pbskids-dl
 Suite: unstable
 Codename: unstable
 Version: 1.0
