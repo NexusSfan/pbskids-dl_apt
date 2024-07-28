@@ -24,6 +24,7 @@ jobs:
           mv pbskids-dl_debian.deb ./pool/main/unstable/pbskids-dl_unstable-$(($RANDOM))_all.deb
           ./generate-packages-unstable.sh
           cd ./dists/unstable
+          rm Release.gpg
           ./generate-release.sh > Release
           cd ../..
         env:
@@ -59,6 +60,7 @@ jobs:
           mv pbskids-dl_debian.deb ./pool/main/stable/pbskids-dl_$DEB_VERSION-1_all.deb
           ./generate-packages.sh
           cd ./dists/stable
+          rm Release.gpg
           ./generate-release.sh > Release
           cd ../..
         env:
