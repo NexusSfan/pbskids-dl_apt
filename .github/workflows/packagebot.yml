@@ -1,11 +1,7 @@
 name: PackageBot
 
 on:
-  push:
-    branches: ["repo"]
   workflow_dispatch:
-  schedule:
-    - cron: "0 * * * *"
   workflow_call:
 
 permissions:

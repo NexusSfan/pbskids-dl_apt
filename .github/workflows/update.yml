@@ -1,6 +1,10 @@
 name: update and deploy
 
 on:
+  push:
+    branches: ["repo"]
+  schedule:
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
