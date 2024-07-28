@@ -3,7 +3,7 @@ Version: 3.2
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Depends: python3, curl, aria2, bash, awk, sed, python3-tk, python3-urllib3, python3-bs4, python3-lxml, python3-pip
-Filename: pool/main/unstable/pbskids-dl_unstable-32514_all.deb
+Filename: pool/main/unstable/pbskids-dl_unstable-28868_all.deb
 Size: 4944
 MD5sum: afb2a7bf6a48c21ba1dc7b881c339ce9
 SHA1: 836266c0021a511e19169aa359e3a8454be7e704
@@ -14,4 +14,15 @@ Homepage: https://github.com/pbskids-dl/pbskids-dl
 Description: A downloader for PBS Kids videos
 Vcs-Browser: https://github.com/pbskids-dl/pbskids-dl
 Vcs-Git: https://github.com/pbskids-dl/pbskids-dl.git
+
+Package: pbskids-dl-keyring
+Version: 1.0.0
+Architecture: all
+Maintainer: NexusSfan <nexussfan@duck.com>
+Filename: pool/main/unstable/pbskids-dl-keyring_1.0.0-1_all.deb
+Size: 2984
+MD5sum: fda4cfe5ad8eba59b93facae0c17a94a
+SHA1: 7b854566ef524eb7aff8dd05a65c3d1b68853cfe
+SHA256: ca5025f0893266c324c92e1bd5795c3c21cb7ba27b292bb1f07f058fb5b349e9
+Description: Public keys by pbskids-dl
 
