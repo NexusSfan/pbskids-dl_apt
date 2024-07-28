@@ -22,7 +22,7 @@ jobs:
           gh release -R pbskids-dl/pbskids-dl download unstable --pattern '*.deb'
           rm ./pool/main/unstable/pbskids-dl_unstable-*_all.deb
           mv pbskids-dl_debian.deb ./pool/main/unstable/pbskids-dl_unstable-$(($RANDOM))_all.deb
-          ./generate_packages_unstable.sh
+          ./generate-packages-unstable.sh
           cd ./dists/unstable
           ./generate-release.sh > Release
           cd ../..
