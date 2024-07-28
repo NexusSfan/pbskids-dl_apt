@@ -3,7 +3,7 @@ Version: 3.2
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Depends: python3, curl, aria2, bash, awk, sed, python3-tk, python3-urllib3, python3-bs4, python3-lxml, python3-pip
-Filename: pool/main/stable/pbskids-dl_3.2.0-1_all.deb
+Filename: pool/main/stable/pbskids-dl_-1_all.deb
 Size: 4946
 MD5sum: 5f146a9ca763ec8a433fd3905950533b
 SHA1: 62bec283e045dd2b0ae7f3551b1a04907f6dc3c1
@@ -25,4 +25,25 @@ MD5sum: fda4cfe5ad8eba59b93facae0c17a94a
 SHA1: 7b854566ef524eb7aff8dd05a65c3d1b68853cfe
 SHA256: ca5025f0893266c324c92e1bd5795c3c21cb7ba27b292bb1f07f058fb5b349e9
 Description: Public keys by pbskids-dl
+
+Package: pbskids-dl.rs
+Version: 3.2.0-1
+Architecture: amd64
+Maintainer: NexusSfan <nexussfan@duck.com>
+Installed-Size: 2039
+Depends: libssl3 (>= 3.0.0~~alpha1), libc6 (>= 2.34), zlib1g (>= 1:1.1.4)
+Conflicts: pbskids-dl
+Filename: pool/main/stable/pbskids-dl.rs_3.2.0-1_amd64.deb
+Size: 845088
+MD5sum: 5a1d16116b8c9577842e514f19815d77
+SHA1: 1ce3b7fa833d09dd425b4ae144dee92f24ac7271
+SHA256: 2edfed98f6ed3e62cd5e996371b2b0312812c5703e8ccae471fe89ae82c67e5e
+Section: tools
+Priority: optional
+Homepage: https://github.com/pbskids-dl/pbskids-dl/wiki
+Description: A downloader for PBS KIDS videos.
+ # pbskids-dl rust
+ Documentation coming soon
+Vcs-Browser: https://github.com/pbskids-dl/pbskids-dl
+Vcs-Git: https://github.com/pbskids-dl/pbskids-dl
 

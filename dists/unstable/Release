@@ -6,22 +6,22 @@ Version: 1.0
 Architectures: all
 Components: main
 Description: APT repo for pbskids-dl
-Date: Sun, 28 Jul 2024 20:46:21 +0000
+Date: Sun, 28 Jul 2024 21:19:37 +0000
 MD5Sum:
- 977499163345988ea9be5f040553aa2a 1808 main/binary-amd64/Packages
- 0fc0ddef67a10366b5bc225fa711e01f 817 main/binary-amd64/Packages.gz
+ df300ad40ed0d5d569159d52db0ebaea 1805 main/binary-amd64/Packages
+ c6a70119251037d03644aa22894c513a 822 main/binary-amd64/Packages.gz
  a403bdab510601ecc41e409fdd81fc97 1062 main/binary-all/Packages
  3bba33e01d31855af20d6dc5514ce2ea 572 main/binary-all/Packages.gz
  8901c0b5bd007410b062544b626ab90f 600 generate-release.sh
 SHA1:
- 5dcd619c4b043855aeb89c148e385fa868a22e0f 1808 main/binary-amd64/Packages
- fe55108353ff2320e3156a384199a0700adac7dc 817 main/binary-amd64/Packages.gz
+ 4f4d77a156ee6ecf0f2551961320852b46174a26 1805 main/binary-amd64/Packages
+ 6dde9394504496a900691f9831c1f30357198935 822 main/binary-amd64/Packages.gz
  aca1054670db1eaf464b8aa3e2bd26556241f01c 1062 main/binary-all/Packages
  d47053d189e230ed78135ad68af57370082c200d 572 main/binary-all/Packages.gz
  79cadd7cb2e29eb2b87181fd8ec05cf957a373b9 600 generate-release.sh
 SHA256:
- d80ac18b3de6df4d517bfb11a5111a78c53c7ec39b052d1420548305997164a1 1808 main/binary-amd64/Packages
- 300b044d1adf948aa40232390f0dd6300f971356aeabc67f154c56cec23ce853 817 main/binary-amd64/Packages.gz
+ 96c223526b41ca6716796e505818a4a4b08350aa13007ad739d4a1b243a3ee6b 1805 main/binary-amd64/Packages
+ cdef5508dbe5e66889a5f98927eccede58aba7062cf2af20297338c7f0d7acf2 822 main/binary-amd64/Packages.gz
  f86dfcba8379e3342238fd045250a6f8d89f1d37ca440c12e40a58a9b63edc35 1062 main/binary-all/Packages
  76a77014ec4869a9226c42146c47cb2e5ae3ae612eea2342e8e48e2d4ee0d2f5 572 main/binary-all/Packages.gz
  48e7864f62605bf747ec6566314eb9647d4fa8c75810ad1767e2967bce961820 600 generate-release.sh
