@@ -44,19 +44,12 @@ jobs:
           gpg --batch --yes --pinentry-mode=loopback -abs -u 5C5D62C723FB06AE54235F095226D68386FBF13E -o Release.gpg Release
           cd ../..
           rm -rf ./tmp
-      - name: Commit
+      - name: Add Files
         run:
           |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "[PackageBot] Update Unstable Packages"
-          git push
-  stable:
-    needs: unstable
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4.1.7
       - name: Update Stable on Repo
         shell: bash
         run: |
@@ -71,26 +64,15 @@ jobs:
           cd ../..
         env:
           GH_TOKEN: ${{ github.token }}
-      - name: Import GPG keys
-        run: |
-          mkdir tmp
-          cd tmp
-          echo "${{ secrets.GPG_PUBLIC_KEY }}" > gpg-pub.asc
-          echo "${{ secrets.GPG_PRIVATE_KEY }}" > gpg-priv.asc
-          gpg --import gpg-pub.asc
-          gpg --batch --yes --pinentry-mode=loopback --import gpg-priv.asc
       - name: Sign Release
         run:
           |
           cd ./dists/stable
           gpg --batch --yes --pinentry-mode=loopback -abs -u 5C5D62C723FB06AE54235F095226D68386FBF13E -o Release.gpg Release
           cd ../..
-          rm -rf ./tmp
       - name: Commit
         run:
           |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "[PackageBot] Update Stable Packages" || true
+          git commit -m "[PackageBot] Update Packages" || true
           git push
