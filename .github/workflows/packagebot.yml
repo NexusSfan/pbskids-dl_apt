@@ -4,7 +4,6 @@ on:
   push:
     branches: ["repo"]
   workflow_dispatch:
-  workflow_call:
   schedule:
     - cron: "0 0 * * *"
 
