@@ -1,13 +1,13 @@
 Package: pbskids-dl
-Version: 3.2
+Version: 3.2.0
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Depends: python3, curl, aria2, bash, awk, sed, python3-tk, python3-urllib3, python3-bs4, python3-lxml, python3-pip
-Filename: pool/main/unstable/pbskids-dl_unstable-2193_all.deb
-Size: 5086
-MD5sum: 7515d5ec49a22464ce31d2bd4179a223
-SHA1: fcd73b81cfb12b94c25cc5331a76d74a7a6d1938
-SHA256: 03da955b225f303cc3502def8691a943910ca5b747b8077fe3dc4c2bc0d647dc
+Filename: pool/main/unstable/pbskids-dl_unstable-5972_all.deb
+Size: 5094
+MD5sum: 87669a94ffb8e8a3562a5a1b990bdb50
+SHA1: 6b810ba6c3ff5e3285b872c534845b0a07ef203d
+SHA256: 8f1fb45daf90d1f4abc51ba6fe33de9b86fa1350d719b459c42c47bc1aa864c4
 Section: tools
 Priority: optional
 Homepage: https://github.com/pbskids-dl/pbskids-dl
