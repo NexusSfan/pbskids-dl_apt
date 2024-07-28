@@ -6,24 +6,21 @@ Version: 1.0
 Architectures: all
 Components: main
 Description: APT repo for pbskids-dl
-Date: Sun, 28 Jul 2024 20:45:05 +0000
+Date: Sun, 28 Jul 2024 20:46:22 +0000
 MD5Sum:
  d22ff1ba63801a15c0c746fc437c0eb8 1053 main/binary-amd64/Packages
- d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/.gitkeep
  c1f00067b2c456f7d0e126db5a2b4ca7 570 main/binary-amd64/Packages.gz
  d22ff1ba63801a15c0c746fc437c0eb8 1053 main/binary-all/Packages
  c1f00067b2c456f7d0e126db5a2b4ca7 570 main/binary-all/Packages.gz
  22da7dd3505a4473bccbe42743084c60 596 generate-release.sh
 SHA1:
  f37d36cb84a9b55af92790cae9f1aab542a0c21d 1053 main/binary-amd64/Packages
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/.gitkeep
  4f68128716d8318c59a7b540fed8d7c2c2c013d4 570 main/binary-amd64/Packages.gz
  f37d36cb84a9b55af92790cae9f1aab542a0c21d 1053 main/binary-all/Packages
  4f68128716d8318c59a7b540fed8d7c2c2c013d4 570 main/binary-all/Packages.gz
  84a308e78f600d2d28ecca47dee9eaced9e3a661 596 generate-release.sh
 SHA256:
  a8016bc5b690a0c9e2060c1f71294f30dcb00c90d1775c372b91f4bfbda322a4 1053 main/binary-amd64/Packages
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/.gitkeep
  7284b09cb6796582a8f8a8fa2b7582b4cd1eaee66807ece40d9ebce9282804b6 570 main/binary-amd64/Packages.gz
  a8016bc5b690a0c9e2060c1f71294f30dcb00c90d1775c372b91f4bfbda322a4 1053 main/binary-all/Packages
  7284b09cb6796582a8f8a8fa2b7582b4cd1eaee66807ece40d9ebce9282804b6 570 main/binary-all/Packages.gz
