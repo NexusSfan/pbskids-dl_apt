@@ -15,8 +15,8 @@ do_hash() {
 }
 
 cat << EOF
-Origin: Example Repository
-Label: Example
+Origin: pbskids-dl Apt Repo
+Label: pbskids-dl Apt Repo
 Suite: stable
 Codename: stable
 Version: 1.0

@@ -15,10 +15,10 @@ do_hash() {
 }
 
 cat << EOF
-Origin: Example Repository
-Label: Example
-Suite: stable
-Codename: stable
+Origin: pbskids-dl Apt Repo
+Label: pbskids-dl Apt Repo
+Suite: unstable
+Codename: unstable
 Version: 1.0
 Architectures: all
 Components: main
