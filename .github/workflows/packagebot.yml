@@ -38,11 +38,9 @@ jobs:
           git pull
           gh release -R pbskids-dl/pbskids-dl download --pattern '*.deb'
           gh release -R pbskids-dl/pbskids-dl.rs download --pattern '*.deb'
-          rm ./pool/main/stable/pbskids-dl_?.?.?-1_all.deb
-          rm ./pool/main/stable/pbskids-dl.rs*.deb
           DEB_VERSION=`curl -s https://raw.githubusercontent.com/pbskids-dl/pbskids-dl_debian/build/version`
-          mv pbskids-dl_debian.deb ./pool/main/stable/pbskids-dl_$DEB_VERSION-1_all.deb
-          mv pbskids-dl.rs*.deb ./pool/main/stable/
+          mv pbskids-dl_debian.deb ./pool/main/stable/pbskids-dl_$DEB_VERSION-1_all.deb || true
+          mv pbskids-dl.rs*.deb ./pool/main/stable/ || true
           ./generate-packages.sh
           cd ./dists/stable
           rm Release.gpg
