@@ -21,10 +21,8 @@ jobs:
           git pull
           gh release -R pbskids-dl/pbskids-dl download unstable --pattern '*.deb'
           gh release -R pbskids-dl/pbskids-dl.rs download unstable --pattern '*.deb'
-          rm ./pool/main/unstable/pbskids-dl_unstable-1_all.deb
-          rm ./pool/main/unstable/pbskids-dl.rs*.deb
-          mv pbskids-dl_debian.deb ./pool/main/unstable/pbskids-dl_unstable-1_all.deb
-          mv pbskids-dl.rs*.deb ./pool/main/unstable/
+          mv pbskids-dl_debian.deb ./pool/main/unstable || true
+          mv pbskids-dl.rs*.deb ./pool/main/unstable || true
           ./generate-packages-unstable.sh
           cd ./dists/unstable
           rm Release.gpg
