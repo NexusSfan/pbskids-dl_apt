@@ -6,22 +6,22 @@ Version: 1.0
 Architectures: all
 Components: main
 Description: APT repo for pbskids-dl
-Date: Thu, 01 Aug 2024 21:06:55 +0000
+Date: Sat, 03 Aug 2024 22:06:22 +0000
 MD5Sum:
- e8db94fa7a94a1e5f4b8f9f010e07464 1805 main/binary-amd64/Packages
- e2812c09fbe44ee7d53310125d9bf4d1 818 main/binary-amd64/Packages.gz
- e8470f138bfe5579a2ad343190fba25c 1062 main/binary-all/Packages
- 885e8387e8c9d64e4fbbe74430177a34 571 main/binary-all/Packages.gz
  8901c0b5bd007410b062544b626ab90f 600 generate-release.sh
+ 8bbca4fdf8892c5730249ee1bf2b4120 821 main/binary-amd64/Packages.gz
+ 75ccb0c019d8acd357027f1fbffdcab0 1805 main/binary-amd64/Packages
+ b3200fa052a705588a27dbe909f7ac03 574 main/binary-all/Packages.gz
+ 1ea3dcc53d409401463a03bcdb4e9407 1062 main/binary-all/Packages
 SHA1:
- 1446a456d36aa8813aa9ef263d161b0ba117386c 1805 main/binary-amd64/Packages
- 3cfd53d67993636e6f4cf7730988189b52a1ab45 818 main/binary-amd64/Packages.gz
- 22906fd175c789c0130f3b7e13d0143456a92e04 1062 main/binary-all/Packages
- ce407ace0aacdac09f140d119fd7e3ee47111119 571 main/binary-all/Packages.gz
  79cadd7cb2e29eb2b87181fd8ec05cf957a373b9 600 generate-release.sh
+ 673ba0e3366fdea7edaa3782a8b6362ec13f7ce3 821 main/binary-amd64/Packages.gz
+ cea4f884bae2bfaf973bd1cbb810da710e19a3c5 1805 main/binary-amd64/Packages
+ 01eae279f481ca9370a07cfbb9e486536162d811 574 main/binary-all/Packages.gz
+ 4c33945ce35a88adec9f49d930bd0101d24670f4 1062 main/binary-all/Packages
 SHA256:
- db1a4deafdd51ad0e38f0c80780afd938e3cfb9ed490e9a007ac52a34a156952 1805 main/binary-amd64/Packages
- ddd517efc69a785a9257fd610d66bffffa261b666743157341221ec1861ad86c 818 main/binary-amd64/Packages.gz
- 9bfe06e8fd1152a20823b6268617fd39777b456803fd45f645d273e0b00c75c1 1062 main/binary-all/Packages
- 221700d4d66a22551975858870aa514e6000b32cae7cf944fe4d9d9f51ac18b0 571 main/binary-all/Packages.gz
  48e7864f62605bf747ec6566314eb9647d4fa8c75810ad1767e2967bce961820 600 generate-release.sh
+ 7ec9d004d3054c5f6a37ba09f8370b8dcc576a02eb5615bb2567df99a0f72008 821 main/binary-amd64/Packages.gz
+ ca12699c7b40eb375921abb4b9cd93c2eda58b3fbf5e11b94a8c3241619c5410 1805 main/binary-amd64/Packages
+ b14b02144d646dc3ebf1ca122e858d4125a0928263ce3284c1fde846b4df5dea 574 main/binary-all/Packages.gz
+ 9b9747dd40a9ca643ff3544b78c559feb1c415f988c47844f00aaf7761a13441 1062 main/binary-all/Packages

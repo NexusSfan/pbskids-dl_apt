@@ -4,10 +4,10 @@ Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Depends: python3, curl, aria2, bash, awk, sed, python3-tk, python3-urllib3, python3-bs4, python3-lxml, python3-pip
 Filename: pool/main/unstable/pbskids-dl_unstable-1_all.deb
-Size: 5084
-MD5sum: cd6c1c15fd4c121f7a8433aa1be60c65
-SHA1: 5e0d77a50486e5c7abf5ae1bc62c21ed006acbc3
-SHA256: 77717fe8bb94fb180f0b39153b8df39b1f0f5d2b3d64c82eff3957ef150fd0a7
+Size: 5112
+MD5sum: e86132c90577ca1287235612dca3ca60
+SHA1: a924081839b1504b2249a85c2ee1513a2a131003
+SHA256: 61eed88ca1fbd6d5996be91562d33097458821629f4142bb90598a3fd55af58f
 Section: tools
 Priority: optional
 Homepage: https://github.com/pbskids-dl/pbskids-dl
@@ -31,13 +31,13 @@ Version: 3.2.2-1
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 4057
-Depends: libc6 (>= 2.34), libssl3 (>= 3.0.0~~alpha1), zlib1g (>= 1:1.1.4)
+Depends: libssl3 (>= 3.0.0~~alpha1), zlib1g (>= 1:1.1.4), libc6 (>= 2.34)
 Conflicts: pbskids-dl
 Filename: pool/main/unstable/pbskids-dl.rs_3.2.2-1_amd64.deb
-Size: 844484
-MD5sum: 61f7ad12f09b90d094ee662765a40df8
-SHA1: 4536b7cd41df9ba0bd88cff84fc24b7021e898b7
-SHA256: 53382b5038968ab69281f57904d7f8584a8171b5894d593c19f6a012a297fdd4
+Size: 844456
+MD5sum: 2e9bd186075f47c49126be75415282ba
+SHA1: ab2800786fecf0c3311cc40fc1ee16ed492b49d4
+SHA256: 880f39e15174fdbc94284a78e88111b9ab3bbb0e4e4e748796d5950ebcf139a7
 Section: tools
 Priority: optional
 Homepage: https://github.com/pbskids-dl/pbskids-dl.rs/tree/dev/docs
