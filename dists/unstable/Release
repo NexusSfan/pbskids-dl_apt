@@ -6,22 +6,22 @@ Version: 1.0
 Architectures: all
 Components: main
 Description: APT repo for pbskids-dl
-Date: Mon, 05 Aug 2024 00:48:24 +0000
+Date: Wed, 07 Aug 2024 00:53:34 +0000
 MD5Sum:
  8901c0b5bd007410b062544b626ab90f 600 generate-release.sh
- 3c986a7171044b3a89ebb96a14fb1f6f 822 main/binary-amd64/Packages.gz
- c8f4d2386784d24bc8351f7b2822eff2 1805 main/binary-amd64/Packages
- 1588157e46be6c32775635f3ce13cf87 573 main/binary-all/Packages.gz
- f8d7f8b6838500da56a30dc150399306 1062 main/binary-all/Packages
+ d19a87d8415528389f5e319b1596444f 899 main/binary-amd64/Packages.gz
+ a2ee89deddfcd1770e43fedd2216fef7 1904 main/binary-amd64/Packages
+ 634d5ca277efb252b4fef6064b2d2023 568 main/binary-all/Packages.gz
+ 82b4536ba4c7df3ae2a82ec522fdbc94 977 main/binary-all/Packages
 SHA1:
  79cadd7cb2e29eb2b87181fd8ec05cf957a373b9 600 generate-release.sh
- 31ea33777f8255d151414b117396a2e9a1c46e39 822 main/binary-amd64/Packages.gz
- 197f9c0ae8dd1b213aa5a5c5d1c5cdde92c19a09 1805 main/binary-amd64/Packages
- eef80c746d1d272093603e8a1d889c08b7a91d09 573 main/binary-all/Packages.gz
- a4460b46cf4925b17b52ab512e9b8b307d7c51c2 1062 main/binary-all/Packages
+ e42406f6bc01dcb1d43ba4ac0806a960f81f3667 899 main/binary-amd64/Packages.gz
+ 93e3df191775965c8c12da7d67ed2aa223895a7d 1904 main/binary-amd64/Packages
+ 879163e301cd4a1208f6b012520f13ef25de5c90 568 main/binary-all/Packages.gz
+ eb08e122f08ebb7090411dc30b0fdd415d81f386 977 main/binary-all/Packages
 SHA256:
  48e7864f62605bf747ec6566314eb9647d4fa8c75810ad1767e2967bce961820 600 generate-release.sh
- 3e1b4fcfba08cba00b54b3eb1085cf55da2a224001ae141be661c60f94d7b8bc 822 main/binary-amd64/Packages.gz
- 6b379250da2cacfb34304f1e91c6088c810379e1ddfac02e78fe37af791df340 1805 main/binary-amd64/Packages
- 3d5450bedbb40c68a4a440c4eddcceefc3d8bda8e4e8ebbef7045a95a560bf0e 573 main/binary-all/Packages.gz
- aa020e8a647c8d2fe3a3969915b441f4684676b49ce9a4130db308da5b36ab38 1062 main/binary-all/Packages
+ d3d54e13f031412a36aff18b0c457f85015d3ee579c1823e042c419f2546c850 899 main/binary-amd64/Packages.gz
+ 90c38b3cd4cad8c44ce891cc7935c9629b1aa2ef344a7a9bf933606a3af97c71 1904 main/binary-amd64/Packages
+ 22279b528955763b27c96b4d2dfabb479ee5a0d6b7a5b9cf90b4ac6a79786bda 568 main/binary-all/Packages.gz
+ eebc2e900beca04d124e574710a840a51b2c97ea39e24109a7000687f48c7e60 977 main/binary-all/Packages

@@ -1,19 +1,17 @@
 Package: pbskids-dl
-Version: 3.2.0
+Version: 3.3.0-1
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
-Depends: python3, curl, aria2, bash, awk, sed, python3-tk, python3-urllib3, python3-bs4, python3-lxml, python3-pip
+Depends: python3, curl, aria2, bash (>= 5.1-2), gawk, sed (>= 4.7-1), python3-tk, python3-urllib3, python3-bs4, python3-lxml, python3-pip
 Filename: pool/main/unstable/pbskids-dl_unstable-1_all.deb
-Size: 5106
-MD5sum: a94a8ce8bb0f367b4bd9b177a9800e75
-SHA1: 9cd45aedd6ca1498b813076d77ff2d81f06bc4c3
-SHA256: f4a550e849f7c2ad099fdf0fe3c39e1b463049b0312dcce0479cec1923a38d58
-Section: tools
+Size: 5102
+MD5sum: bf1701526c9b2d6858cd2289ebb9bad2
+SHA1: adb243b1f3920eac67517a49aa49c199b816cf7d
+SHA256: e8e4d0e810e0a0f7f37408ec6440e2878f2021ee7c41cc8e24493103863904b3
+Section: web
 Priority: optional
 Homepage: https://github.com/pbskids-dl/pbskids-dl
 Description: A downloader for PBS Kids videos
-Vcs-Browser: https://github.com/pbskids-dl/pbskids-dl
-Vcs-Git: https://github.com/pbskids-dl/pbskids-dl.git
 
 Package: pbskids-dl-keyring
 Version: 1.0.0
@@ -27,17 +25,17 @@ SHA256: ca5025f0893266c324c92e1bd5795c3c21cb7ba27b292bb1f07f058fb5b349e9
 Description: Public keys by pbskids-dl
 
 Package: pbskids-dl.rs
-Version: 3.2.2-1
+Version: 3.3.0-1
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
-Installed-Size: 4057
-Depends: libssl3 (>= 3.0.0~~alpha1), zlib1g (>= 1:1.1.4), libc6 (>= 2.34)
+Installed-Size: 6789
+Depends: libpango-1.0-0 (>= 1.44.3), libpangocairo-1.0-0 (>= 1.14.0), libssl3 (>= 3.0.0~~alpha1), libxcursor1 (>> 1.1.2), libx11-6, libc6 (>= 2.34), libglib2.0-0 (>= 2.12.0), libxinerama1 (>= 2:1.1.4), libxfixes3, libcairo2 (>= 1.10.0), zlib1g (>= 1:1.1.4)
 Conflicts: pbskids-dl
-Filename: pool/main/unstable/pbskids-dl.rs_3.2.2-1_amd64.deb
-Size: 844456
-MD5sum: 2e9bd186075f47c49126be75415282ba
-SHA1: ab2800786fecf0c3311cc40fc1ee16ed492b49d4
-SHA256: 880f39e15174fdbc94284a78e88111b9ab3bbb0e4e4e748796d5950ebcf139a7
+Filename: pool/main/unstable/pbskids-dl.rs_3.3.0-1_amd64.deb
+Size: 1352580
+MD5sum: 356eda996d5c6ddfbda960032215ea1d
+SHA1: 6b6c59d9865efd019cee9a518b1a0b02a3cdfead
+SHA256: 24773ab4113d6f15c245487621431ccbb91415ac23e6c96b0ca89573c31c7007
 Section: tools
 Priority: optional
 Homepage: https://github.com/pbskids-dl/pbskids-dl.rs/tree/dev/docs

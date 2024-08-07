@@ -1,19 +1,17 @@
 Package: pbskids-dl
-Version: 3.2.0
+Version: 3.3.0-1
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
-Depends: python3, curl, aria2, bash, awk, sed, python3-tk, python3-urllib3, python3-bs4, python3-lxml, python3-pip
+Depends: python3, curl, aria2, bash (>= 5.1-2), gawk, sed (>= 4.7-1), python3-tk, python3-urllib3, python3-bs4, python3-lxml, python3-pip
 Filename: pool/main/unstable/pbskids-dl_unstable-1_all.deb
-Size: 5106
-MD5sum: a94a8ce8bb0f367b4bd9b177a9800e75
-SHA1: 9cd45aedd6ca1498b813076d77ff2d81f06bc4c3
-SHA256: f4a550e849f7c2ad099fdf0fe3c39e1b463049b0312dcce0479cec1923a38d58
-Section: tools
+Size: 5102
+MD5sum: bf1701526c9b2d6858cd2289ebb9bad2
+SHA1: adb243b1f3920eac67517a49aa49c199b816cf7d
+SHA256: e8e4d0e810e0a0f7f37408ec6440e2878f2021ee7c41cc8e24493103863904b3
+Section: web
 Priority: optional
 Homepage: https://github.com/pbskids-dl/pbskids-dl
 Description: A downloader for PBS Kids videos
-Vcs-Browser: https://github.com/pbskids-dl/pbskids-dl
-Vcs-Git: https://github.com/pbskids-dl/pbskids-dl.git
 
 Package: pbskids-dl-keyring
 Version: 1.0.0
