@@ -6,7 +6,7 @@ Version: 1.0
 Architectures: all
 Components: main
 Description: APT repo for pbskids-dl
-Date: Wed, 07 Aug 2024 00:53:35 +0000
+Date: Wed, 07 Aug 2024 00:58:51 +0000
 MD5Sum:
  22da7dd3505a4473bccbe42743084c60 596 generate-release.sh
  d6f8ad901b8270f90e6b94e5db10e575 820 main/binary-amd64/Packages.gz
